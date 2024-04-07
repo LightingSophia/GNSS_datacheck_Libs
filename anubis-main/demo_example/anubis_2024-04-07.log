@@ -1,0 +1,21 @@
+2024-04-07 22:25:52 [gsetbase:0] xconfig: read from file config.xml
+2024-04-07 22:25:52 [gsetbase:0] program: G-Nut/Anubis [2.3.0] compiled: Apr  7 2024 22:09:28 ($Rev: 2843 $)
+2024-04-07 22:25:52 [gsetbase:0] ==========
+2024-04-07 22:25:56 [main:0] READ: file://H:\Github_repository\GNSS_datacheck_Libs\anubis-main\demo_example\brdm0360.24p   3.775 sec 
+2024-04-07 22:26:06 [main:0] READ: file://H:\Github_repository\GNSS_datacheck_Libs\anubis-main\demo_example\wuh20360.24o  10.190 sec 
+2024-04-07 22:26:06 [gxtrqc:0] SITE: WUH2 WUH2_%Y-%m-%d.xtr
+2024-04-07 22:26:06 [gxtrqc:0] WUH2 header [-1]:  0.000
+2024-04-07 22:29:10 [gxtrqc:0] WUH2 satview[9]:  184.000
+2024-04-07 22:29:11 [gxtrqc:0] WUH2 obsview[9]:  1.000
+2024-04-07 22:30:11 [gxtrqc:0] WUH2 estima [1]:  60.000
+2024-04-07 22:30:11 [gxtrqc:0] WUH2 observ [1]:  0.000
+2024-04-07 22:30:11 [gxtrqc:0] WUH2 nbands [1]:  0.000
+2024-04-07 22:30:11 [gxtrqc:0] WUH2 pieces [1]:  0.000
+2024-04-07 22:30:17 [gxtrqc:0] WUH2 prepro [9]:  6.000
+2024-04-07 22:31:05 [gxtrqc:0] WUH2 skyplt [1]:  48.000
+2024-04-07 22:33:49 [gxtrqc:0] WUH2 mlpath [9]:  164.000
+2024-04-07 22:34:29 [gxtrqc:0] WUH2 snoise [9]:  40.000
+2024-04-07 22:34:29 [gxtrqc:0] WUH2 svinfo [9]:  0.000
+2024-04-07 22:34:30 [gxtrqc:0] WUH2 summar [9]:  1.000
+2024-04-07 22:34:32 [main:0] Single-thread summary: WUH2 505.748 sec 
+2024-04-07 22:34:32 [main:0] total time: 520.022 sec 

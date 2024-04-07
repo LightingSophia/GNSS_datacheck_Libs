@@ -1,0 +1,857 @@
+<?xml version="1.0"?>
+<QC_GNSS gml:id="WUH2_20240205T000000_20240205T235930" xmlns="https://software.pecny.cz/anubis" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="https://www.w3.org/2001/XMLSchema/instance" schemaVersion="1.1">
+  <meta>
+    <created>2024-04-07T14:34:30</created>
+    <program>G-Nut/Anubis [2.3.0]</program>
+    <settings>
+      <time_beg>2016-06-17T00:00:00</time_beg>
+      <time_end>2024-04-07T23:59:59</time_end>
+      <data_int>30.000</data_int>
+      <elev_min>10.00</elev_min>
+      <system type="GPS" />
+      <system type="GAL" />
+      <system type="GLO" />
+      <system type="BDS" />
+    </settings>
+  </meta>
+  <navi>
+    <system type="GPS" nsat="32">
+      <have>447</have>
+    </system>
+    <system type="GAL" nsat="25">
+      <have>11194</have>
+    </system>
+    <system type="GLO" nsat="26">
+      <have>1171</have>
+    </system>
+    <system type="BDS" nsat="42">
+      <have>1008</have>
+    </system>
+  </navi>
+  <data>
+    <time_beg>2024-02-05T00:00:00</time_beg>
+    <time_end>2024-02-05T23:59:30</time_end>
+    <data_int>30.00</data_int>
+    <numb_epo>2880</numb_epo>
+    <numb_gap>0</numb_gap>
+    <total>
+      <expt>195119</expt>
+      <have>123297</have>
+      <expt_usr>140447</expt_usr>
+      <have_usr>120046</have_usr>
+      <elev_min>2.97</elev_min>
+      <cyc_slps>1844</cyc_slps>
+      <clk_jmps>0</clk_jmps>
+    </total>
+    <excluded>
+      <xbeg>0</xbeg>
+      <xend>0</xend>
+      <xint>0</xint>
+      <xsys>0</xsys>
+    </excluded>
+    <system type="GPS" nsat="31" xele="0">
+      <epo>
+        <expt>2880</expt>
+        <have>2880</have>
+        <dual>2880</dual>
+      </epo>
+      <amb>
+        <nepo>0</nepo>
+        <nsat>112</nsat>
+        <nsig>329</nsig>
+        <nslp>527</nslp>
+      </amb>
+      <bnd type="code">
+        <xepo>0</xepo>
+        <xsat>697</xsat>
+      </bnd>
+      <bnd type="phase">
+        <xepo>0</xepo>
+        <xsat>697</xsat>
+      </bnd>
+      <obs type="C1C">
+        <nsat>31</nsat>
+        <expt>44324</expt>
+        <have>24214</have>
+        <expt_usr>30715</expt_usr>
+        <have_usr>23783</have_usr>
+        <mpth>30.7</mpth>
+      </obs>
+      <obs type="C1W">
+        <nsat>31</nsat>
+        <expt>44324</expt>
+        <have>23905</have>
+        <expt_usr>30715</expt_usr>
+        <have_usr>23593</have_usr>
+        <mpth>25.7</mpth>
+      </obs>
+      <obs type="C2W">
+        <nsat>31</nsat>
+        <expt>44324</expt>
+        <have>23905</have>
+        <expt_usr>30715</expt_usr>
+        <have_usr>23593</have_usr>
+        <mpth>28.1</mpth>
+      </obs>
+      <obs type="C2X">
+        <nsat>24</nsat>
+        <expt>44324</expt>
+        <have>19900</have>
+        <expt_usr>30715</expt_usr>
+        <have_usr>19188</have_usr>
+        <mpth>34.6</mpth>
+      </obs>
+      <obs type="C5X">
+        <nsat>17</nsat>
+        <expt>44324</expt>
+        <have>14617</have>
+        <expt_usr>30715</expt_usr>
+        <have_usr>13623</have_usr>
+        <mpth>26.6</mpth>
+      </obs>
+      <obs type="L1C">
+        <nsat>31</nsat>
+        <expt>44324</expt>
+        <have>24214</have>
+        <expt_usr>30715</expt_usr>
+        <have_usr>23783</have_usr>
+        <slps>131</slps>
+      </obs>
+      <obs type="L1W">
+        <nsat>31</nsat>
+        <expt>44324</expt>
+        <have>23905</have>
+        <expt_usr>30715</expt_usr>
+        <have_usr>23593</have_usr>
+        <slps>88</slps>
+      </obs>
+      <obs type="L2W">
+        <nsat>31</nsat>
+        <expt>44324</expt>
+        <have>23905</have>
+        <expt_usr>30715</expt_usr>
+        <have_usr>23593</have_usr>
+        <slps>105</slps>
+      </obs>
+      <obs type="L2X">
+        <nsat>24</nsat>
+        <expt>44324</expt>
+        <have>19900</have>
+        <expt_usr>30715</expt_usr>
+        <have_usr>19188</have_usr>
+        <slps>90</slps>
+      </obs>
+      <obs type="L5X">
+        <nsat>17</nsat>
+        <expt>44324</expt>
+        <have>14617</have>
+        <expt_usr>30715</expt_usr>
+        <have_usr>13623</have_usr>
+        <slps>113</slps>
+      </obs>
+      <obs type="D1C">
+        <nsat>31</nsat>
+        <expt>44324</expt>
+        <have>24214</have>
+        <expt_usr>30715</expt_usr>
+        <have_usr>23783</have_usr>
+      </obs>
+      <obs type="D1W">
+        <nsat>31</nsat>
+        <expt>44324</expt>
+        <have>23905</have>
+        <expt_usr>30715</expt_usr>
+        <have_usr>23593</have_usr>
+      </obs>
+      <obs type="D2W">
+        <nsat>31</nsat>
+        <expt>44324</expt>
+        <have>23905</have>
+        <expt_usr>30715</expt_usr>
+        <have_usr>23593</have_usr>
+      </obs>
+      <obs type="D2X">
+        <nsat>24</nsat>
+        <expt>44324</expt>
+        <have>19898</have>
+        <expt_usr>30715</expt_usr>
+        <have_usr>19185</have_usr>
+      </obs>
+      <obs type="D5X">
+        <nsat>17</nsat>
+        <expt>44324</expt>
+        <have>14616</have>
+        <expt_usr>30715</expt_usr>
+        <have_usr>13622</have_usr>
+      </obs>
+      <obs type="S1C">
+        <nsat>31</nsat>
+        <expt>44324</expt>
+        <have>24214</have>
+        <expt_usr>30715</expt_usr>
+        <have_usr>23783</have_usr>
+      </obs>
+      <obs type="S1W">
+        <nsat>31</nsat>
+        <expt>44324</expt>
+        <have>23905</have>
+        <expt_usr>30715</expt_usr>
+        <have_usr>23593</have_usr>
+      </obs>
+      <obs type="S2W">
+        <nsat>31</nsat>
+        <expt>44324</expt>
+        <have>23905</have>
+        <expt_usr>30715</expt_usr>
+        <have_usr>23593</have_usr>
+      </obs>
+      <obs type="S2X">
+        <nsat>24</nsat>
+        <expt>44324</expt>
+        <have>19900</have>
+        <expt_usr>30715</expt_usr>
+        <have_usr>19188</have_usr>
+      </obs>
+      <obs type="S5X">
+        <nsat>17</nsat>
+        <expt>44324</expt>
+        <have>14617</have>
+        <expt_usr>30715</expt_usr>
+        <have_usr>13623</have_usr>
+      </obs>
+    </system>
+    <system type="GAL" nsat="23" xele="0">
+      <epo>
+        <expt>2880</expt>
+        <have>2880</have>
+        <dual>2880</dual>
+      </epo>
+      <amb>
+        <nepo>0</nepo>
+        <nsat>77</nsat>
+        <nsig>167</nsig>
+        <nslp>255</nslp>
+      </amb>
+      <bnd type="code">
+        <xepo>0</xepo>
+        <xsat>317</xsat>
+      </bnd>
+      <bnd type="phase">
+        <xepo>0</xepo>
+        <xsat>317</xsat>
+      </bnd>
+      <obs type="C1X">
+        <nsat>23</nsat>
+        <expt>40358</expt>
+        <have>18303</have>
+        <expt_usr>28502</expt_usr>
+        <have_usr>17956</have_usr>
+        <mpth>27.4</mpth>
+      </obs>
+      <obs type="C5X">
+        <nsat>23</nsat>
+        <expt>40358</expt>
+        <have>19241</have>
+        <expt_usr>28502</expt_usr>
+        <have_usr>18449</have_usr>
+        <mpth>24.6</mpth>
+      </obs>
+      <obs type="C6X">
+        <nsat>23</nsat>
+        <expt>40358</expt>
+        <have>18494</have>
+        <expt_usr>28502</expt_usr>
+        <have_usr>18022</have_usr>
+        <mpth>29.4</mpth>
+      </obs>
+      <obs type="C7X">
+        <nsat>23</nsat>
+        <expt>40358</expt>
+        <have>19183</have>
+        <expt_usr>28502</expt_usr>
+        <have_usr>18433</have_usr>
+        <mpth>22.7</mpth>
+      </obs>
+      <obs type="L1X">
+        <nsat>23</nsat>
+        <expt>40358</expt>
+        <have>18303</have>
+        <expt_usr>28502</expt_usr>
+        <have_usr>17956</have_usr>
+        <slps>39</slps>
+      </obs>
+      <obs type="L5X">
+        <nsat>23</nsat>
+        <expt>40358</expt>
+        <have>19241</have>
+        <expt_usr>28502</expt_usr>
+        <have_usr>18449</have_usr>
+        <slps>76</slps>
+      </obs>
+      <obs type="L6X">
+        <nsat>23</nsat>
+        <expt>40358</expt>
+        <have>18494</have>
+        <expt_usr>28502</expt_usr>
+        <have_usr>18022</have_usr>
+        <slps>65</slps>
+      </obs>
+      <obs type="L7X">
+        <nsat>23</nsat>
+        <expt>40358</expt>
+        <have>19183</have>
+        <expt_usr>28502</expt_usr>
+        <have_usr>18433</have_usr>
+        <slps>75</slps>
+      </obs>
+      <obs type="D1X">
+        <nsat>23</nsat>
+        <expt>40358</expt>
+        <have>18303</have>
+        <expt_usr>28502</expt_usr>
+        <have_usr>17956</have_usr>
+      </obs>
+      <obs type="D5X">
+        <nsat>23</nsat>
+        <expt>40358</expt>
+        <have>19241</have>
+        <expt_usr>28502</expt_usr>
+        <have_usr>18449</have_usr>
+      </obs>
+      <obs type="D6X">
+        <nsat>23</nsat>
+        <expt>40358</expt>
+        <have>18496</have>
+        <expt_usr>28502</expt_usr>
+        <have_usr>18023</have_usr>
+      </obs>
+      <obs type="D7X">
+        <nsat>23</nsat>
+        <expt>40358</expt>
+        <have>19183</have>
+        <expt_usr>28502</expt_usr>
+        <have_usr>18433</have_usr>
+      </obs>
+      <obs type="S1X">
+        <nsat>23</nsat>
+        <expt>40358</expt>
+        <have>18303</have>
+        <expt_usr>28502</expt_usr>
+        <have_usr>17956</have_usr>
+      </obs>
+      <obs type="S5X">
+        <nsat>23</nsat>
+        <expt>40358</expt>
+        <have>19241</have>
+        <expt_usr>28502</expt_usr>
+        <have_usr>18449</have_usr>
+      </obs>
+      <obs type="S6X">
+        <nsat>23</nsat>
+        <expt>40358</expt>
+        <have>18494</have>
+        <expt_usr>28502</expt_usr>
+        <have_usr>18022</have_usr>
+      </obs>
+      <obs type="S7X">
+        <nsat>23</nsat>
+        <expt>40358</expt>
+        <have>19183</have>
+        <expt_usr>28502</expt_usr>
+        <have_usr>18433</have_usr>
+      </obs>
+    </system>
+    <system type="GLO" nsat="25" xele="863">
+      <epo>
+        <expt>2880</expt>
+        <have>2880</have>
+        <dual>2880</dual>
+      </epo>
+      <amb>
+        <nepo>0</nepo>
+        <nsat>200</nsat>
+        <nsig>402</nsig>
+        <nslp>4719</nslp>
+      </amb>
+      <bnd type="code">
+        <xepo>0</xepo>
+        <xsat>3200</xsat>
+      </bnd>
+      <bnd type="phase">
+        <xepo>0</xepo>
+        <xsat>3199</xsat>
+      </bnd>
+      <obs type="C1C">
+        <nsat>25</nsat>
+        <expt>31716</expt>
+        <have>20413</have>
+        <expt_usr>20629</expt_usr>
+        <have_usr>19497</have_usr>
+        <mpth>67.2</mpth>
+      </obs>
+      <obs type="C1P">
+        <nsat>25</nsat>
+        <expt>31720</expt>
+        <have>20561</have>
+        <expt_usr>20633</expt_usr>
+        <have_usr>19596</have_usr>
+        <mpth>44.9</mpth>
+      </obs>
+      <obs type="C2C">
+        <nsat>22</nsat>
+        <expt>31721</expt>
+        <have>17827</have>
+        <expt_usr>20634</expt_usr>
+        <have_usr>17085</have_usr>
+        <mpth>81.7</mpth>
+      </obs>
+      <obs type="C2P">
+        <nsat>22</nsat>
+        <expt>31712</expt>
+        <have>17046</have>
+        <expt_usr>20626</expt_usr>
+        <have_usr>16497</have_usr>
+        <mpth>44.3</mpth>
+      </obs>
+      <obs type="L1C">
+        <nsat>25</nsat>
+        <expt>31716</expt>
+        <have>20413</have>
+        <expt_usr>20629</expt_usr>
+        <have_usr>19497</have_usr>
+        <slps>1185</slps>
+      </obs>
+      <obs type="L1P">
+        <nsat>25</nsat>
+        <expt>31720</expt>
+        <have>20562</have>
+        <expt_usr>20633</expt_usr>
+        <have_usr>19597</have_usr>
+        <slps>1272</slps>
+      </obs>
+      <obs type="L2C">
+        <nsat>22</nsat>
+        <expt>31721</expt>
+        <have>17827</have>
+        <expt_usr>20634</expt_usr>
+        <have_usr>17085</have_usr>
+        <slps>1248</slps>
+      </obs>
+      <obs type="L2P">
+        <nsat>22</nsat>
+        <expt>31712</expt>
+        <have>17046</have>
+        <expt_usr>20626</expt_usr>
+        <have_usr>16497</have_usr>
+        <slps>1014</slps>
+      </obs>
+      <obs type="D1C">
+        <nsat>25</nsat>
+        <expt>31716</expt>
+        <have>20413</have>
+        <expt_usr>20629</expt_usr>
+        <have_usr>19497</have_usr>
+      </obs>
+      <obs type="D1P">
+        <nsat>25</nsat>
+        <expt>31720</expt>
+        <have>20560</have>
+        <expt_usr>20633</expt_usr>
+        <have_usr>19595</have_usr>
+      </obs>
+      <obs type="D2C">
+        <nsat>22</nsat>
+        <expt>31721</expt>
+        <have>17823</have>
+        <expt_usr>20634</expt_usr>
+        <have_usr>17082</have_usr>
+      </obs>
+      <obs type="D2P">
+        <nsat>22</nsat>
+        <expt>31712</expt>
+        <have>17046</have>
+        <expt_usr>20626</expt_usr>
+        <have_usr>16497</have_usr>
+      </obs>
+      <obs type="S1C">
+        <nsat>25</nsat>
+        <expt>31716</expt>
+        <have>20413</have>
+        <expt_usr>20629</expt_usr>
+        <have_usr>19497</have_usr>
+      </obs>
+      <obs type="S1P">
+        <nsat>25</nsat>
+        <expt>31720</expt>
+        <have>20561</have>
+        <expt_usr>20633</expt_usr>
+        <have_usr>19596</have_usr>
+      </obs>
+      <obs type="S2C">
+        <nsat>22</nsat>
+        <expt>31721</expt>
+        <have>17827</have>
+        <expt_usr>20634</expt_usr>
+        <have_usr>17085</have_usr>
+      </obs>
+      <obs type="S2P">
+        <nsat>22</nsat>
+        <expt>31712</expt>
+        <have>17046</have>
+        <expt_usr>20626</expt_usr>
+        <have_usr>16497</have_usr>
+      </obs>
+    </system>
+    <system type="BDS" nsat="42" xele="0">
+      <epo>
+        <expt>2880</expt>
+        <have>2880</have>
+        <dual>2880</dual>
+      </epo>
+      <amb>
+        <nepo>0</nepo>
+        <nsat>87</nsat>
+        <nsig>367</nsig>
+        <nslp>1190</nslp>
+      </amb>
+      <bnd type="code">
+        <xepo>0</xepo>
+        <xsat>2400</xsat>
+      </bnd>
+      <bnd type="phase">
+        <xepo>0</xepo>
+        <xsat>2400</xsat>
+      </bnd>
+      <obs type="C1X">
+        <nsat>27</nsat>
+        <expt>78717</expt>
+        <have>26345</have>
+        <expt_usr>60597</expt_usr>
+        <have_usr>25783</have_usr>
+        <mpth>33.0</mpth>
+      </obs>
+      <obs type="C2I">
+        <nsat>42</nsat>
+        <expt>78717</expt>
+        <have>59280</have>
+        <expt_usr>60597</expt_usr>
+        <have_usr>58217</have_usr>
+        <mpth>41.6</mpth>
+      </obs>
+      <obs type="C5X">
+        <nsat>27</nsat>
+        <expt>78717</expt>
+        <have>27664</have>
+        <expt_usr>60597</expt_usr>
+        <have_usr>26307</have_usr>
+        <mpth>41.9</mpth>
+      </obs>
+      <obs type="C6I">
+        <nsat>42</nsat>
+        <expt>78717</expt>
+        <have>58495</have>
+        <expt_usr>60597</expt_usr>
+        <have_usr>57328</have_usr>
+        <mpth>26.7</mpth>
+      </obs>
+      <obs type="L1X">
+        <nsat>27</nsat>
+        <expt>78717</expt>
+        <have>26345</have>
+        <expt_usr>60597</expt_usr>
+        <have_usr>25783</have_usr>
+        <slps>287</slps>
+      </obs>
+      <obs type="L2I">
+        <nsat>42</nsat>
+        <expt>78717</expt>
+        <have>59280</have>
+        <expt_usr>60597</expt_usr>
+        <have_usr>58217</have_usr>
+        <slps>365</slps>
+      </obs>
+      <obs type="L5X">
+        <nsat>27</nsat>
+        <expt>78717</expt>
+        <have>27664</have>
+        <expt_usr>60597</expt_usr>
+        <have_usr>26307</have_usr>
+        <slps>333</slps>
+      </obs>
+      <obs type="L6I">
+        <nsat>42</nsat>
+        <expt>78717</expt>
+        <have>58495</have>
+        <expt_usr>60597</expt_usr>
+        <have_usr>57328</have_usr>
+        <slps>205</slps>
+      </obs>
+      <obs type="D1X">
+        <nsat>27</nsat>
+        <expt>78717</expt>
+        <have>26345</have>
+        <expt_usr>60597</expt_usr>
+        <have_usr>25783</have_usr>
+      </obs>
+      <obs type="D2I">
+        <nsat>42</nsat>
+        <expt>78717</expt>
+        <have>59280</have>
+        <expt_usr>60597</expt_usr>
+        <have_usr>58217</have_usr>
+      </obs>
+      <obs type="D5X">
+        <nsat>27</nsat>
+        <expt>78717</expt>
+        <have>27664</have>
+        <expt_usr>60597</expt_usr>
+        <have_usr>26307</have_usr>
+      </obs>
+      <obs type="D6I">
+        <nsat>42</nsat>
+        <expt>78717</expt>
+        <have>58494</have>
+        <expt_usr>60597</expt_usr>
+        <have_usr>57327</have_usr>
+      </obs>
+      <obs type="S1X">
+        <nsat>27</nsat>
+        <expt>78717</expt>
+        <have>26345</have>
+        <expt_usr>60597</expt_usr>
+        <have_usr>25783</have_usr>
+      </obs>
+      <obs type="S2I">
+        <nsat>42</nsat>
+        <expt>78717</expt>
+        <have>59280</have>
+        <expt_usr>60597</expt_usr>
+        <have_usr>58217</have_usr>
+      </obs>
+      <obs type="S5X">
+        <nsat>27</nsat>
+        <expt>78717</expt>
+        <have>27664</have>
+        <expt_usr>60597</expt_usr>
+        <have_usr>26307</have_usr>
+      </obs>
+      <obs type="S6I">
+        <nsat>42</nsat>
+        <expt>78717</expt>
+        <have>58495</have>
+        <expt_usr>60597</expt_usr>
+        <have_usr>57328</have_usr>
+      </obs>
+    </system>
+    <position type="GPS" source="analysis">
+      <coordinate>
+        <gml:Point gml:id="GPS_analysis">
+          <gml:pos>-2267749.771 5009154.336 3221294.946</gml:pos>
+        </gml:Point>
+      </coordinate>
+      <deviation>
+        <axis name="X">1.827</axis>
+        <axis name="Y">3.288</axis>
+        <axis name="Z">2.276</axis>
+      </deviation>
+    </position>
+    <position type="GAL" source="analysis">
+      <coordinate>
+        <gml:Point gml:id="GAL_analysis">
+          <gml:pos>-2267749.083 5009152.991 3221293.625</gml:pos>
+        </gml:Point>
+      </coordinate>
+      <deviation>
+        <axis name="X">3.438</axis>
+        <axis name="Y">4.735</axis>
+        <axis name="Z">2.208</axis>
+      </deviation>
+    </position>
+    <position type="GLO" source="analysis">
+      <coordinate>
+        <gml:Point gml:id="GLO_analysis">
+          <gml:pos>-2267750.561 5009156.145 3221294.678</gml:pos>
+        </gml:Point>
+      </coordinate>
+      <deviation>
+        <axis name="X">5.451</axis>
+        <axis name="Y">7.863</axis>
+        <axis name="Z">5.740</axis>
+      </deviation>
+    </position>
+    <position type="BDS" source="analysis">
+      <coordinate>
+        <gml:Point gml:id="BDS_analysis">
+          <gml:pos>-2267737.511 5009107.172 3221310.095</gml:pos>
+        </gml:Point>
+      </coordinate>
+      <deviation>
+        <axis name="X">38.600</axis>
+        <axis name="Y">72.230</axis>
+        <axis name="Z">53.212</axis>
+      </deviation>
+    </position>
+  </data>
+  <head file_numb="1">
+    <file_name>wuh20360.24o</file_name>
+    <file_md5sum>9f0d3bf324c9c831d795c47c3d2f768b</file_md5sum>
+    <file_format>RINEX3.05</file_format>
+    <site_id>WUH2</site_id>
+    <marker_name>WUH200CHN</marker_name>
+    <marker_numb>21602M007</marker_numb>
+    <receiver_type>JAVAD TRE_3</receiver_type>
+    <receiver_numb>1480954</receiver_numb>
+    <receiver_vers>4.2.01+b0-211122</receiver_vers>
+    <antenna_type>JAVRINGANT_G5T</antenna_type>
+    <antenna_dome>NONE</antenna_dome>
+    <antenna_numb>3354C</antenna_numb>
+    <software>JPS2RIN v.2.1.216</software>
+    <data_int>30.000</data_int>
+    <position type="GNS" source="rinex_header">
+      <coordinate>
+        <gml:Point gml:id="rinex_header">
+          <gml:pos>-2267749.000 5009154.000 3221290.000</gml:pos>
+        </gml:Point>
+      </coordinate>
+      <eccentricity>
+        <axis name="N">0.0000</axis>
+        <axis name="E">0.0000</axis>
+        <axis name="U">0.1206</axis>
+      </eccentricity>
+    </position>
+    <system type="BDS">
+      <obs type="C1X" />
+      <obs type="C2I" />
+      <obs type="C5X" />
+      <obs type="C6I" />
+      <obs type="C7D" />
+      <obs type="C7I" />
+      <obs type="C7Z" />
+      <obs type="C8X" />
+      <obs type="D1X" />
+      <obs type="D2I" />
+      <obs type="D5X" />
+      <obs type="D6I" />
+      <obs type="D7D" />
+      <obs type="D7I" />
+      <obs type="D7Z" />
+      <obs type="D8X" />
+      <obs type="L1X" />
+      <obs type="L2I" />
+      <obs type="L5X" />
+      <obs type="L6I" />
+      <obs type="L7D" />
+      <obs type="L7I" />
+      <obs type="L7Z" />
+      <obs type="L8X" />
+      <obs type="S1X" />
+      <obs type="S2I" />
+      <obs type="S5X" />
+      <obs type="S6I" />
+      <obs type="S7D" />
+      <obs type="S7I" />
+      <obs type="S7Z" />
+      <obs type="S8X" />
+    </system>
+    <system type="GAL">
+      <obs type="C1X" />
+      <obs type="C5X" />
+      <obs type="C6X" />
+      <obs type="C7X" />
+      <obs type="C8X" />
+      <obs type="D1X" />
+      <obs type="D5X" />
+      <obs type="D6X" />
+      <obs type="D7X" />
+      <obs type="D8X" />
+      <obs type="L1X" />
+      <obs type="L5X" />
+      <obs type="L6X" />
+      <obs type="L7X" />
+      <obs type="L8X" />
+      <obs type="S1X" />
+      <obs type="S5X" />
+      <obs type="S6X" />
+      <obs type="S7X" />
+      <obs type="S8X" />
+    </system>
+    <system type="GPS">
+      <obs type="C1C" />
+      <obs type="C1W" />
+      <obs type="C1X" />
+      <obs type="C2W" />
+      <obs type="C2X" />
+      <obs type="C5X" />
+      <obs type="D1C" />
+      <obs type="D1W" />
+      <obs type="D1X" />
+      <obs type="D2W" />
+      <obs type="D2X" />
+      <obs type="D5X" />
+      <obs type="L1C" />
+      <obs type="L1W" />
+      <obs type="L1X" />
+      <obs type="L2W" />
+      <obs type="L2X" />
+      <obs type="L5X" />
+      <obs type="S1C" />
+      <obs type="S1W" />
+      <obs type="S1X" />
+      <obs type="S2W" />
+      <obs type="S2X" />
+      <obs type="S5X" />
+    </system>
+    <system type="IRN">
+      <obs type="C5A" />
+      <obs type="D5A" />
+      <obs type="L5A" />
+      <obs type="S5A" />
+    </system>
+    <system type="QZS">
+      <obs type="C1C" />
+      <obs type="C1X" />
+      <obs type="C2X" />
+      <obs type="C5X" />
+      <obs type="D1C" />
+      <obs type="D1X" />
+      <obs type="D2X" />
+      <obs type="D5X" />
+      <obs type="L1C" />
+      <obs type="L1X" />
+      <obs type="L2X" />
+      <obs type="L5X" />
+      <obs type="S1C" />
+      <obs type="S1X" />
+      <obs type="S2X" />
+      <obs type="S5X" />
+    </system>
+    <system type="GLO">
+      <obs type="C1C" />
+      <obs type="C1P" />
+      <obs type="C2C" />
+      <obs type="C2P" />
+      <obs type="C3X" />
+      <obs type="D1C" />
+      <obs type="D1P" />
+      <obs type="D2C" />
+      <obs type="D2P" />
+      <obs type="D3X" />
+      <obs type="L1C" />
+      <obs type="L1P" />
+      <obs type="L2C" />
+      <obs type="L2P" />
+      <obs type="L3X" />
+      <obs type="S1C" />
+      <obs type="S1P" />
+      <obs type="S2C" />
+      <obs type="S2P" />
+      <obs type="S3X" />
+    </system>
+    <system type="SBS">
+      <obs type="C1C" />
+      <obs type="D1C" />
+      <obs type="L1C" />
+      <obs type="S1C" />
+    </system>
+  </head>
+</QC_GNSS>

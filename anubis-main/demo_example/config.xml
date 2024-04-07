@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?> 
+<!DOCTYPE config>
+
+<config>
+
+ <gen>
+   <beg> "2016-06-17 00:00:00" </beg>
+   <end> "2024-04-07 23:59:59" </end>
+   <sys>  GPS GAL GLO BDS -QZS -SBS -IRN  </sys>
+   <rec>  WUH2 </rec>
+   <int> 30 </int>
+ </gen>
+
+ <inputs>
+    
+	<rinexo> H:\Github_repository\GNSS_datacheck_Libs\anubis-main\demo_example\wuh20360.24o </rinexo> 
+	
+	<rinexn> H:\Github_repository\GNSS_datacheck_Libs\anubis-main\demo_example\brdm0360.24p </rinexn> 	
+	
+
+ </inputs>
+
+ <qc 
+   sec_sum="9" 
+   sec_hdr="0" 
+   sec_obs="1" 
+   sec_est="1"                
+   sec_gap="1" 
+   sec_bnd="1" 
+   sec_pre="9" 
+   sec_ele="1" 
+   sec_mpx="9" 
+   sec_snr="9" 
+   sec_sat="9"
+   
+   int_stp="30" 
+   int_gap="600" 
+   int_pcs="1800" 
+   col_sat="50" 
+   mpx_nep="15" 
+   mpx_lim="3.0" 
+   pos_kin="false" 
+   pos_int="30" 
+   pos_cut="5" 
+   ele_cut="10" 
+   sat_rec="false" 
+   use_health="3"
+   dV_lim="5" 
+   dH_lim="5" 
+   dP_lim="6" 
+   
+   
+ />
+
+
+ <gps>
+    <!--sat> </sat-->  
+    <type> C L D S  </type>                               
+    <band> 1 2 5</band>                                   
+    <attr> C D I L M N P Q S W Y   </attr>
+	<gobs> C1C C1W C2W C2X C5X D1C D1W D2W D2X D5X L1C L1W L2W L2X L5X S1C S1W S2W S2X S5X </gobs>	
+ </gps>             
+ 
+ <bds>
+    <sat> C01 C02 C03 C04 C05 C06 C07 C08 C09 C10 C11 C12 C13 C14 C16 C19 C20 C21 C22 C23 C24 C25 C26 C27 C28 C29 C30 C32 C33 C34 C35 C36 C37 C38 C39 C40 C41 C42 C43 C44 C45 C46 </sat> 
+    <type> C L D S  </type>                                 
+    <band> 1 2 5 6 </band> 
+	<attr> A D I N P Q X  </attr>	
+	<!--band> 2 6 </band-->   
+    <!--attr> I Q X  </attr-->  
+	<!--band> 1 5 </band-->   
+    <!--attr> D P X  </attr--> 	
+	<gobs> C1X C2I C5X C6I D1X D2I D5X D6I L1X L2I L5X L6I S1X S2I S5X S6I</gobs>	
+	                         
+ </bds>
+ 
+ <gal>
+    <type> C L D S  </type>                                 
+    <band> 1 5 6 7</band>                                   
+    <attr> A B C I Q X Z  </attr>                           
+ </gal>
+ 
+ <glo>
+    <type> C L D S  </type>                                 
+    <band> 1 2 </band>                                      
+    <attr> C P   </attr>                                    
+ </glo>
+ 
+ 	   
+ <qzs>
+    <type> C L D S  </type>                                 
+    <band> 1 2 </band>                                      
+    <attr> C P   </attr> 
+    <gobs> C1C C1X C2X C5X D1C D1X D2X D5X L1C L1X L2X L5X S1C S1X S2X S5X  </gobs>	
+ </qzs>
+
+ 
+
+ <outputs append="0" verb="0" >
+	<!--log> /dev/stdout </log-->     
+    <log> anubis_%Y-%m-%d.log </log> 
+   
+    <xtr> $(rec)_%Y-%m-%d.xtr </xtr>  
+	 
+    <xml> $(rec)_%Y-%m-%d.xqc </xml>
+	
+	
+	
+ </outputs>
+
+
+
+</config>
